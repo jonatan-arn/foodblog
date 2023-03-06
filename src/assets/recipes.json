@@ -1,0 +1,15 @@
+﻿[
+    {
+        "id": "1",
+        "name": "beancurry",
+        "img": "",
+        "kcal": "",
+        "time": "15",
+        "categorie": "2",
+        "type": "1",
+        "summary": "bean_curry_desc",
+        "autho": "fitgreenmind (instagram)",
+        "quantity": "4",
+        "restriccion": "2"
+    }
+]
