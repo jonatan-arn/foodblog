@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.site-open {
+  transition: all 0.3s ease;
+  transform: translate3d(-75%, 0, 0);
+}
+.site-close {
+  transition: all 0.3s ease;
+}
+.navbar-open {
+  transition: z-index 0.5s step-start;
+  opacity: 1;
+  z-index: 1;
+}
+.navbar-close {
+  transition: z-index 0.3s step-end, opacity 0.3s linear, left 0.3s linear;
+  opacity: 0;
+  z-index: -1;
+}
