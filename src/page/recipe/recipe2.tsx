@@ -1,44 +1,129 @@
+import { useParams } from "react-router-dom";
+
 import defaultrecipe from "../../assets/defaulrecipe.png";
+import recipes from "./../../assets/recipes.json";
+import ingredients from "./../../assets/ingredients.json";
+import IRecipe from "./../../interface/Irecipe";
+import Ingredientes from "./../../interface/Iingredientes";
+import Ingredientlist from "./ingredientlist";
+interface ingredientbyGroup {
+  group: string;
+  ingredientes: Ingredientes[];
+}
 function Recipe() {
+  const { id } = useParams();
+
+  const recipe = recipes.find((r) => r.id == id) as IRecipe;
+
+  const ingredient = ingredients.filter(
+    (i) => i.recipeid == id
+  ) as Ingredientes[];
+  const ingredientsgroups = [] as ingredientbyGroup[];
+  ingredient.map((i) => {
+    const group = i.group;
+    const samegroup = ingredient.filter((f) => f.group == group);
+    if (!ingredientsgroups.find((g) => g.group == group) && group != undefined)
+      ingredientsgroups.push({ group, ingredientes: samegroup });
+  });
+
   return (
     <>
-      <div className="lg:pt-12  lg:pb-4 lg:pl-24">
-        <h1>Bean curry</h1>
-      </div>
-      <div className="grid lg:grid-cols-1 lg:grid-rows-2">
-        <div className="flex  justify-center lg:mr-5">
-          <img
-            className="object-cover h-48 w-80 lg:ml-32 rounded-2xl"
-            src={defaultrecipe}
-            alt="defaul recipe image"
-          />
-        </div>
-        <div className="lg:my-5 lg:mx-0 m-5 flex  justify-center flex-col text-center">
-          <div>
-            Small description about de recipe i should be a two or one line, no
-            more because it cant feat
-          </div>
-          <div className="grid grid-cols-2  grid-rows-2 lg:gap-x-12 lg:gap-y-8 gap-x-5 gap-y-4 mx-96 my-5">
-            <div>Curry</div>
-            <div>1 serving</div>
-            <div>15min</div>
-            <div>30 kcal</div>
-          </div>
+      <div className=" relative  flex  flex-col items-center justify-center">
+        <img
+          className="a w-full"
+          src={recipe.img || defaultrecipe}
+          alt="defaul recipe image"
+        />
+        <div
+          className=" absolute top-1/2 left-1/2 text-center lg:text-7xl text-3xl text-white font-bold"
+          style={{ transform: "translate(-50%, -50%)" }}
+        >
+          {recipe.name}
+          <div className="text-base font-normal">{recipe.carddate}</div>
         </div>
       </div>
-      <div className="flex flex-col items-center mt-16">
-        <div className="flex flex-row justify-center gap-9 border-4 border-solid border-gray-100 lg:w-1/2 w-full">
-          <div className="my-3">
-            <button>Ingredients</button>
-          </div>
 
-          <div className="my-3">
-            <button>Process</button>
+      <div className="mx-auto max-w-4xl  pt-10 lg:pt-28">
+        <h1 className="line-h pb-10  text-center text-2xl font-light leading-10">
+          {recipe.summary}
+        </h1>
+
+        <div className="grid grid-cols-1 gap-7 px-4 pt-3 lg:grid-cols-2">
+          <div>
+            <h3>INGREDIENTS</h3>
+            {ingredientsgroups.map((l, index) => (
+              <Ingredientlist key={index} list={l}></Ingredientlist>
+            ))}
           </div>
-        </div>
-        <div>
-          <h2>Ingrediens</h2>
-          <h4>5 items</h4>
+          <div>
+            <h3 className=" text-base ">Method</h3>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+            <h5> Rabbit Rack Method:</h5>
+            <ul>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+              <li>Season the rabbit saddle all over in salt and pepper.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

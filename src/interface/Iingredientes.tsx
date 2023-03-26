@@ -5,4 +5,5 @@ export default interface Ingredients {
   quantity: string;
   mesure: string;
   optional: string;
+  group: string;
 }
