@@ -1,15 +1,22 @@
 import React from "react";
 import defaultrecipe from "../../assets/defaulrecipe.png";
-
-export default function recipescard() {
+import IRecipe from "./../../interface/Irecipe";
+interface recipeProps {
+  recipe: IRecipe;
+}
+export default function recipescard({ recipe }: recipeProps) {
   return (
     <>
       <div className="items-left px- flex flex-col  ">
-        <img className="w-96 " src={defaultrecipe} alt="defaul recipe image" />
+        <img
+          className="w-96 "
+          src={recipe.cardimage != null ? recipe.cardimage : defaultrecipe}
+          alt="defaul recipe image"
+        />
         <h2 className="pt-4 text-xl font-bold leading-6 tracking-wide">
-          Rabbit inspired by The Last of Us
+          {recipe.cardtitle}
         </h2>
-        <h4 className="text-xs font-normal text-gray-400">Mar 6, 2023</h4>
+        <h4 className="text-xs font-normal text-gray-400">{recipe.carddate}</h4>
       </div>
     </>
   );

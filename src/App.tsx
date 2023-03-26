@@ -13,7 +13,7 @@ import MobileNavbar from "./components/shared/mobileNav";
 import food1 from "./assets/food1.png";
 
 function App() {
-  const r = recipes as IRecipe[];
+  const r = recipes.slice(0, 9) as IRecipe[];
   const i = ingredients as IIngredient[];
 
   const onOpenEvent = () => {
@@ -44,22 +44,9 @@ function App() {
               what the delectable (and occasionally horrible) foods from fiction
               actually taste like.
             </h1>
-            <div className="grid grid-cols-1 gap-7 px-4 pt-3 lg:grid-cols-3">
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              <Recipecard></Recipecard>
-              {/* <Recipeslist></Recipeslist> */}
-            </div>
+            <Recipeslist list={r}></Recipeslist>
           </div>
         </div>
-
-        {/* <Recipe></Recipe> */}
       </div>
     </>
   );
