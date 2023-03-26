@@ -8,7 +8,7 @@ interface navbarProps {
 export default function navbar({ onOpenEvent, open }: navbarProps) {
   let Links = [
     { name: "home", link: "/" },
-    { name: "recipes", link: "/recipe" },
+    { name: "recipes", link: "/recipes" },
     { name: "about", link: "/" },
     { name: "blog", link: "/" },
     { name: "contact", link: "/" },

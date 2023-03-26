@@ -18,7 +18,8 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/recipe" element={<Recipe />} />
+        <Route path="/recipes" element={<Recipe />} />
+        <Route path="/recipe/:id" element={<Recipe />} />
       </Routes>
     </BrowserRouter>
   );
