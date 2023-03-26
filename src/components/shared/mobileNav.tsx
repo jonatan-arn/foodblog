@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 interface mobilenavbarProps {
   open: boolean;
 }
@@ -29,12 +28,12 @@ export default function mobileNavbar({ open }: mobilenavbarProps) {
             key={link.name}
             className=" flex h-20 w-full items-center justify-center border-b-2 border-gray-700 "
           >
-            <a
-              href={link.link}
+            <Link
+              to={link.link}
               className="  text-sm font-bold leading-3  text-white duration-500 hover:text-gray-400 "
             >
               {link.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

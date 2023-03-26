@@ -10,4 +10,7 @@ export default interface Recipe {
   autho: string;
   quantity: string;
   restriccion: string;
+  cardimage: string;
+  cardtitle: string;
+  carddate: string;
 }

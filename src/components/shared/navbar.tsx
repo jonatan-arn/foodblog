@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import { AiOutlineMenu } from "react-icons/ai";
 interface navbarProps {
   onOpenEvent: () => void;
@@ -7,7 +8,7 @@ interface navbarProps {
 export default function navbar({ onOpenEvent, open }: navbarProps) {
   let Links = [
     { name: "home", link: "/" },
-    { name: "recipes", link: "/" },
+    { name: "recipes", link: "/recipe" },
     { name: "about", link: "/" },
     { name: "blog", link: "/" },
     { name: "contact", link: "/" },
@@ -45,12 +46,12 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
               key={link.name}
               className="hidden  md:my-0 md:ml-8 md:block  md:h-full md:border-none"
             >
-              <a
-                href={link.link}
+              <Link
+                to={link.link}
                 className="  text-sm font-bold leading-3  text-white duration-500 hover:text-gray-400 "
               >
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

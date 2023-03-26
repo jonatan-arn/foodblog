@@ -1,13 +1,13 @@
 import React from "react";
 import defaultrecipe from "../../assets/defaulrecipe.png";
-import IRecipe from "./../../interface/Irecipe";
+import IRecipe from "../../interface/Irecipe";
 interface recipeProps {
   recipe: IRecipe;
 }
 export default function recipescard({ recipe }: recipeProps) {
   return (
     <>
-      <div className="items-left px- flex flex-col  ">
+      <div className="items-left px- flex flex-col">
         <img
           className="w-96 "
           src={recipe.cardimage != null ? recipe.cardimage : defaultrecipe}
