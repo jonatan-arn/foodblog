@@ -3,7 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/shared/navbar";
 import MobileNavbar from "./components/shared/mobileNav";
 import Home from "./page/home/home";
-import Recipe from "./page/recipe/recipe";
+import Recipe from "./page/recipe/recipe2";
 
 function App() {
   const onOpenEvent = () => {
@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <MobileNavbar open={open} />
-      <div className={`  w-full  ${open ? "site-open" : "site-close"}`}>
+      <div className={` h-20 w-full  ${open ? "site-open" : "site-close"}`}>
         <Navbar open={open} onOpenEvent={onOpenEvent} />
       </div>
       <Routes>

@@ -13,7 +13,7 @@ export default function home() {
   return (
     <>
       <div>
-        <div className=" flex min-h-screen flex-col items-center justify-center">
+        <div className=" my-80 flex flex-col items-center justify-center">
           <img
             className="a w-4/6 lg:w-3/12"
             src={food1}

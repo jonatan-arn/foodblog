@@ -17,15 +17,17 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
   return (
     <div className={` fixed top-0 left-0 z-10 w-full`}>
       <div
-        className="items-center justify-between py-6  px-12 md:flex md:px-20"
+        className=" h-20 items-center justify-between py-6  px-12 md:flex md:px-20"
         style={{ backgroundColor: "#1a1a1a" }}
       >
         <div
           className="flex cursor-pointer items-center text-xl font-bold 
       tracking-wide text-white "
         >
-          <span className="mr-1  pt-2 text-3xl text-white"></span>
-          CUINA
+          <Link to={"/"}>
+            <span className="mr-1  pt-2 text-3xl text-white"></span>
+            CUINA
+          </Link>
         </div>
 
         <div
