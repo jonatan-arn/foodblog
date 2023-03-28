@@ -4,6 +4,7 @@ import Navbar from "./components/shared/navbar";
 import MobileNavbar from "./components/shared/mobileNav";
 import Home from "./page/home/home";
 import Recipe from "./page/recipe/recipe2";
+import ScrollToTop from "./components/shared/ScrollToTop";
 
 function App() {
   const onOpenEvent = () => {
@@ -12,6 +13,7 @@ function App() {
   let [open, setOpen] = useState(false);
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <MobileNavbar open={open} />
       <div className={` h-20 w-full  ${open ? "site-open" : "site-close"}`}>
         <Navbar open={open} onOpenEvent={onOpenEvent} />
