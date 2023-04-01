@@ -30,7 +30,7 @@ function Recipe() {
     <>
       <div className=" relative  flex  flex-col items-center justify-center">
         <img
-          className="a w-full"
+          className="a w-full object-cover h-[75vh]"
           src={recipe.img || defaultrecipe}
           alt="defaul recipe image"
         />
