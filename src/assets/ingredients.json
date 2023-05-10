@@ -86,7 +86,7 @@
     "name": "salt_peper",
     "quantity": "",
     "mesure": "to taste",
-    "optional": "0",
+    "optional": "1",
     "group": "bean_curry_souce"
   },
   {

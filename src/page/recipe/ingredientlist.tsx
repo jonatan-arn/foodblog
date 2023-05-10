@@ -11,12 +11,15 @@ interface ingredientlistProps {
 export default function ingredientlist({ list }: ingredientlistProps) {
   return (
     <>
-      <h5> {list.group} </h5>
-      <ol>
+      <h5 className="underline text-xl mt-12">{list.group}</h5>
+      <ul className="list-disc pl-16">
         {list.ingredientes.map((i) => (
-          <ul key={i.id}> {i.name} </ul>
+          <li className="text-xl mt-4" key={i.id}>
+            {i.quantity} {i.mesure} {i.name}
+            {i.optional === "1" ? " *" : ""}
+          </li>
         ))}
-      </ol>
+      </ul>
     </>
   );
 }

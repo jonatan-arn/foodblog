@@ -13,7 +13,7 @@ interface ingredientbyGroup {
 function Recipe() {
   const { id } = useParams();
 
-  const recipe = recipes.find((r) => r.id == id) as IRecipe;
+  const recipe = recipes.find((r) => r.id == id) as unknown as IRecipe;
 
   const ingredient = ingredients.filter(
     (i) => i.recipeid == id
@@ -25,6 +25,8 @@ function Recipe() {
     if (!ingredientsgroups.find((g) => g.group == group) && group != undefined)
       ingredientsgroups.push({ group, ingredientes: samegroup });
   });
+
+  console.log(ingredient);
 
   return (
     <>
@@ -43,14 +45,14 @@ function Recipe() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl  pt-10 lg:pt-28">
+      <div className="mx-auto max-w-7xl pt-10 lg:pt-28">
         <h1 className="line-h pb-10  text-center text-2xl font-light leading-10">
           {recipe.summary}
         </h1>
 
-        <div className="grid grid-cols-1 gap-7 px-4 pt-3 lg:grid-cols-2">
+        <div className="grid gap-7 px-4 pt-3  grid-cols-[500px_minmax(1300px,_2fr)_100px]">
           <div>
-            <h3>INGREDIENTS</h3>
+            <h3 className="bold tracking-widest text-2xl">INGREDIENTS</h3>
             {ingredientsgroups.map((l, index) => (
               <Ingredientlist key={index} list={l}></Ingredientlist>
             ))}
