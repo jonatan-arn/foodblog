@@ -14,7 +14,7 @@ export default function ingredientlist({ list }: ingredientlistProps) {
       <h5 className="underline text-xl mt-12">{list.group}</h5>
       <ul className="list-disc pl-16">
         {list.ingredientes.map((i) => (
-          <li className="text-xl mt-4" key={i.id}>
+          <li className="md:text-xl mt-4" key={i.id}>
             {i.quantity} {i.mesure} {i.name}
             {i.optional === "1" ? " *" : ""}
           </li>

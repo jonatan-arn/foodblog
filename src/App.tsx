@@ -3,7 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/shared/navbar";
 import MobileNavbar from "./components/shared/mobileNav";
 import Home from "./page/home/home";
-import Recipe from "./page/recipe/recipe2";
+import Recipe from "./page/recipe/recipe";
 import ScrollToTop from "./components/shared/ScrollToTop";
 
 function App() {

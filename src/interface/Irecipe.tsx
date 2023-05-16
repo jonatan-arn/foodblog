@@ -1,3 +1,5 @@
+import Steps from "./Isteps";
+
 export default interface Recipe {
   id: string;
   name: string;
@@ -13,4 +15,5 @@ export default interface Recipe {
   cardimage: string;
   cardtitle: string;
   carddate: string;
+  steps: Steps[];
 }

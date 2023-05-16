@@ -13,7 +13,69 @@
     "restriccion": "2",
     "cardimg": null,
     "cardtitle": "Rabbit inspired by The Last of Us",
-    "carddate": "Mar 6, 2023"
+    "carddate": "Mar 6, 2023",
+    "steps": [
+      {
+        "id": "1",
+        "order": "1",
+        "name": "bean_curry_souce_1",
+        "group": "bean_curry_souce_step"
+      },
+      {
+        "id": "2",
+        "order": "2",
+        "name": "bean_curry_souce_2",
+        "group": "bean_curry_souce_step"
+      },
+      {
+        "id": "3",
+        "order": "3",
+        "name": "bean_curry_souce_3",
+        "group": "bean_curry_souce_step"
+      },
+      {
+        "id": "4",
+        "order": "4",
+        "name": "bean_curry_souce_4",
+        "group": "bean_curry_souce_step"
+      },
+      {
+        "id": "5",
+        "order": "5",
+        "name": "bean_curry_souce_5",
+        "group": "bean_curry_souce_step"
+      },
+      {
+        "id": "6",
+        "order": "1",
+        "name": "bean_curry_toppigns_1",
+        "group": "bean_curry_toppigns_step"
+      },
+      {
+        "id": "7",
+        "order": "2",
+        "name": "bean_curry_toppign_2",
+        "group": "bean_curry_toppigns_step"
+      },
+      {
+        "id": "8",
+        "order": "3",
+        "name": "bean_curry_toppigns_3",
+        "group": "bean_curry_toppigns_step"
+      },
+      {
+        "id": "9",
+        "order": "4",
+        "name": "bean_curry_toppigns_4",
+        "group": "bean_curry_toppigns_step"
+      },
+      {
+        "id": "10",
+        "order": "5",
+        "name": "bean_curry_toppigns_5",
+        "group": "bean_curry_toppigns_step"
+      }
+    ]
   },
   {
     "id": "1",
