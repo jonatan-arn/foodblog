@@ -1,14 +1,13 @@
 import { useParams } from "react-router-dom";
 
-import defaultrecipe from "../../assets/defaulrecipe.png";
-import recipes from "../../assets/recipes.json";
+import defaultrecipe from "../../../public/defaulrecipe.png";
+import recipes from "../../../public/recipes.json";
 import IRecipe from "../../interface/Irecipe";
 import Ingredientes from "../../interface/Iingredientes";
 import Ingredientlist from "./ingredientlist";
 import Stepstlist from "./stepstlist";
 import Steps from "../../interface/Isteps";
 import { useTranslation } from "react-i18next";
-
 interface ingredientbyGroup {
   group: string;
   ingredientes: Ingredientes[];
@@ -50,9 +49,7 @@ function Recipe() {
         <img
           className="a w-full object-cover h-[75vh]"
           src={
-            recipe.img != null
-              ? "/src/assets/recipeimage/" + recipe.img
-              : defaultrecipe
+            recipe.img != null ? "/recipeimage/" + recipe.img : defaultrecipe
           }
           alt={recipe.img != null ? recipe.img : defaultrecipe}
         />

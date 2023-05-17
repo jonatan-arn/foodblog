@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import defaultrecipe from "../../assets/defaulrecipe.png";
+import defaultrecipe from "../../../public/defaulrecipe.png";
 import IRecipe from "../../interface/Irecipe";
 import { useTranslation } from "react-i18next";
 
@@ -18,9 +18,7 @@ export default function recipescard({ recipe }: recipeProps) {
           <img
             className="w-96 "
             src={
-              recipe.img != null
-                ? "/src/assets/recipeimage/" + recipe.img
-                : defaultrecipe
+              recipe.img != null ? "/recipeimage/" + recipe.img : defaultrecipe
             }
             alt={recipe.img != null ? recipe.img : defaultrecipe}
           />

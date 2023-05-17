@@ -1,14 +1,14 @@
-import recipes from "./../../assets/recipes.json";
+import recipes from "../../../public/recipes.json";
 import Recipe from "./../../interface/Irecipe";
 import Recipeslist from "./../../components/shared/recipeslist";
 import { useTranslation } from "react-i18next";
 
-import food1 from "./../../assets/food1.png";
-import s1 from "./../../assets/Stickers/Black Orange.png";
-import s2 from "./../../assets/Stickers/Lemon.png";
-import s3 from "./../../assets/Stickers/Red Diamond.png";
-import s4 from "./../../assets/Stickers/Tasty Tomato.png";
-import s5 from "./../../assets/Stickers/Purple Grape.png";
+import food1 from "../../../public/food1.png";
+import s1 from "../../../public/Stickers/Black Orange.png";
+import s2 from "../../../public/Stickers/Lemon.png";
+import s3 from "../../../public/Stickers/Red Diamond.png";
+import s4 from "../../../public/Stickers/Tasty Tomato.png";
+import s5 from "../../../public/Stickers/Purple Grape.png";
 
 export default function home() {
   const r = recipes.slice(0, 9) as unknown as Recipe[];
