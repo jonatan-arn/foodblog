@@ -7,7 +7,7 @@ interface mobilenavbarProps {
 
 export default function mobileNavbar({ open }: mobilenavbarProps) {
   let Links = [
-    { name: "home", link: "/" },
+    { name: "home", link: "/foodblog" },
     { name: "recipes", link: "/" },
     { name: "about", link: "/" },
     { name: "blog", link: "/" },

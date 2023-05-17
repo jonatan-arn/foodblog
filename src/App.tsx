@@ -20,8 +20,7 @@ function App() {
         <Navbar open={open} onOpenEvent={onOpenEvent} />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/foodblog" element={<Home />} />
         <Route path="/recipes" element={<Recipe />} />
         <Route path="/recipe/:id" element={<Recipe />} />
       </Routes>
