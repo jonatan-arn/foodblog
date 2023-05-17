@@ -8,10 +8,10 @@ interface navbarProps {
 export default function navbar({ onOpenEvent, open }: navbarProps) {
   let Links = [
     { name: "home", link: "/foodblog" },
-    { name: "recipes", link: "/recipes" },
-    { name: "about", link: "/" },
-    { name: "blog", link: "/" },
-    { name: "contact", link: "/" },
+    { name: "recipes", link: "/foodblog/recipes" },
+    { name: "about", link: "/foodblog" },
+    { name: "blog", link: "/foodblog" },
+    { name: "contact", link: "/foodblog" },
   ];
   const [t, i18n] = useTranslation("global");
   return (

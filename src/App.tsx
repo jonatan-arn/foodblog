@@ -21,8 +21,8 @@ function App() {
       </div>
       <Routes>
         <Route path="/foodblog" element={<Home />} />
-        <Route path="/recipes" element={<Recipe />} />
-        <Route path="/recipe/:id" element={<Recipe />} />
+        <Route path="/foodblog/recipes" element={<Recipe />} />
+        <Route path="/foodblog/recipe/:id" element={<Recipe />} />
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
