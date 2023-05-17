@@ -6,6 +6,7 @@ import Home from "./page/home/home";
 import Recipe from "./page/recipe/recipe";
 import ScrollToTop from "./components/shared/ScrollToTop";
 import Footer from "./components/shared/footer";
+
 function App() {
   const onOpenEvent = () => {
     setOpen(!open);

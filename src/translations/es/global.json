@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home-menu": "inicio",
+    "recipes-menu": "recetas",
+    "about-menu": "acerca de",
+    "blog-menu": "blog",
+    "contact-menu": "contacto"
+  },
+  "home": {
+    "home-desc": "Descipcion projecto"
+  }
+}
