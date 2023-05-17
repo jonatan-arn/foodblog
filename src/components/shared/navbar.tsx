@@ -24,7 +24,7 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
           className="flex cursor-pointer items-center text-xl font-bold 
       tracking-wide text-white "
         >
-          <Link to={"/"}>
+          <Link to={"/foodblog"}>
             <span className="mr-1  pt-2 text-3xl text-white"></span>
             CUINA
           </Link>
