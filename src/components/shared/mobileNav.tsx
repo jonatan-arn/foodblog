@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 interface mobilenavbarProps {
   open: boolean;
 }
+
 export default function mobileNavbar({ open }: mobilenavbarProps) {
   let Links = [
     { name: "home", link: "/" },
@@ -10,8 +13,7 @@ export default function mobileNavbar({ open }: mobilenavbarProps) {
     { name: "blog", link: "/" },
     { name: "contact", link: "/" },
   ];
-  console.log(open);
-
+  const [t, i18n] = useTranslation("global");
   return (
     <div
       className={`mobileNav fixed top-0 left-0 w-full md:hidden ${
@@ -32,7 +34,7 @@ export default function mobileNavbar({ open }: mobilenavbarProps) {
               to={link.link}
               className="  text-sm font-bold leading-3  text-white duration-500 hover:text-gray-400 "
             >
-              {link.name}
+              {t("navbar." + link.name)}
             </Link>
           </li>
         ))}

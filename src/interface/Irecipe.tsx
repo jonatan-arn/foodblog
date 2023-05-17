@@ -1,5 +1,5 @@
 import Steps from "./Isteps";
-
+import Ingredients from "./Iingredientes";
 export default interface Recipe {
   id: string;
   name: string;
@@ -12,8 +12,8 @@ export default interface Recipe {
   autho: string;
   quantity: string;
   restriccion: string;
-  cardimage: string;
   cardtitle: string;
   carddate: string;
+  ingredients: Ingredients[];
   steps: Steps[];
 }

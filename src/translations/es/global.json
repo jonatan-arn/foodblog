@@ -1,12 +1,69 @@
 {
   "navbar": {
-    "home-menu": "inicio",
-    "recipes-menu": "recetas",
-    "about-menu": "acerca de",
-    "blog-menu": "blog",
-    "contact-menu": "contacto"
+    "home": "inicio",
+    "recipes": "recetas",
+    "about": "acerca de",
+    "blog": "blog",
+    "contact": "contacto"
   },
   "home": {
-    "home-desc": "Descipcion projecto"
+    "home_desc": "Desc projecto"
+  },
+  "recipe_page": {
+    "in": "INGREDIENTES",
+    "st": "PASOS",
+    "mesure": {
+      "none": " ",
+      "tbsp": "Cda",
+      "tsp": "Cdta",
+      "to_taste": "Al gusto",
+      "handfull": "Un puñado",
+      "pinch": "Una pizca",
+      "thumbsize": "Un pulgar",
+      "g": "gramos",
+      "ml": "mililitros"
+    },
+    "ingredients": {
+      "onion": "cebolla",
+      "cloves_garlic": "ajos",
+      "ginger": "jengibre",
+      "butter": "mantequilla",
+      "tomato_paste": "tomate concentrado",
+      "coocked_chickpeas": "garbanzos cocidos",
+      "coocked_black_beans": "judias moradas cocidas",
+      "coconout_milk": "leche de coco",
+      "cilantro": "cilantro",
+      "lemon": "limon",
+      "salt": "sal",
+      "garam_masala": "garam masala",
+      "paprika": "pimenton dulce",
+      "ground_coriander": "cilantro",
+      "cumin": "comino",
+      "chili_powder": "pimenton picante"
+    }
+  },
+  "recipes": {
+    "chanamasala": {
+      "name": "Chana masala",
+      "title": "Chana masala",
+      "summary": "Chana masala (o tambien conocido como curry de garbanzos), no muy tradicional pero rapido y sencillo, a mi me gusta tambien acompañarlo de alubias moradas ",
+      "cardtitle": "Chana masala, rapido pero poco tradicional",
+      "steps": {
+        "chanamasala_curry_steap": {
+          "name": "El curry",
+          "chanamasala_curry_steap_1": "Cortar la cebolla en julianas, picar el ajo y el jengibre",
+          "chanamasala_curry_steap_2": "Pochar la cebolla en una sarten con aceite hasta que este un poco transparente",
+          "chanamasala_curry_steap_3": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sarten durante 5min",
+          "chanamasala_curry_steap_4": "Añadir el tomate concentrado y sofreir durante 3 minutos",
+          "chanamasala_curry_steap_5": "Añade los garbanzos y judias de bote con su liquido incluido y la leche de coco",
+          "chanamasala_curry_steap_6": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limon y cilantro",
+          "chanamasala_curry_steap_7": "Acompañar con un poco de arroz basmati o pan"
+        }
+      },
+      "ingredients": {
+        "chanamasala_spices": "Especias",
+        "chanamasala_curry": "El curry"
+      }
+    }
   }
 }

@@ -1,10 +1,10 @@
 {
   "navbar": {
-    "home-menu": "home",
-    "recipes-menu": "recipes",
-    "about-menu": "about",
-    "blog-menu": "blog",
-    "contact-menu": "contact"
+    "home": "home",
+    "recipes": "recipes",
+    "about": "about",
+    "blog": "blog",
+    "contact": "contact"
   },
   "home": {
     "home-desc": "Desciptions of proyect"

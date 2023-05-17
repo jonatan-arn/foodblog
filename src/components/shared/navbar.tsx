@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 import { AiOutlineMenu } from "react-icons/ai";
 interface navbarProps {
   onOpenEvent: () => void;
@@ -13,7 +13,7 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
     { name: "blog", link: "/" },
     { name: "contact", link: "/" },
   ];
-
+  const [t, i18n] = useTranslation("global");
   return (
     <div className={` fixed top-0 left-0 z-10 w-full`}>
       <div
@@ -52,7 +52,7 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
                 to={link.link}
                 className="  text-sm font-bold leading-3  text-white duration-500 hover:text-gray-400 "
               >
-                {link.name}
+                {t("navbar." + link.name)}
               </Link>
             </li>
           ))}

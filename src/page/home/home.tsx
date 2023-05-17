@@ -1,8 +1,7 @@
 import recipes from "./../../assets/recipes.json";
-import ingredients from "./../../assets/ingredients.json";
-import IRecipe from "./../../interface/Irecipe";
-import IIngredient from "./../../interface/Iingredientes";
+import Recipe from "./../../interface/Irecipe";
 import Recipeslist from "./../../components/shared/recipeslist";
+import { useTranslation } from "react-i18next";
 
 import food1 from "./../../assets/food1.png";
 import s1 from "./../../assets/Stickers/Black Orange.png";
@@ -10,10 +9,10 @@ import s2 from "./../../assets/Stickers/Lemon.png";
 import s3 from "./../../assets/Stickers/Red Diamond.png";
 import s4 from "./../../assets/Stickers/Tasty Tomato.png";
 import s5 from "./../../assets/Stickers/Purple Grape.png";
-export default function home() {
-  const r = recipes.slice(0, 9) as IRecipe[];
-  const i = ingredients as IIngredient[];
 
+export default function home() {
+  const r = recipes.slice(0, 9) as unknown as Recipe[];
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <div>
@@ -56,9 +55,7 @@ export default function home() {
         </div>
         <div className="mx-auto max-w-4xl  pt-10 lg:pt-28">
           <h1 className="line-h pb-10  text-center text-2xl font-light leading-10">
-            Binging with Babish is a cooking show dedicated to discovering what
-            the delectable (and occasionally horrible) foods from fiction
-            actually taste like.
+            {t("home.home_desc")}
           </h1>
           <Recipeslist list={r}></Recipeslist>
         </div>
