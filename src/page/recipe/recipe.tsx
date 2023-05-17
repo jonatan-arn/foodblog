@@ -64,7 +64,10 @@ function Recipe() {
           {recipe.summary}
         </h1>
 
-        <div className="lg:grid gap-7 px-4 pt-3  grid-cols-[500px_minmax(1300px,_2fr)_100px]">
+        <div
+          className="lg:grid gap-7 px-4 pt-3 "
+          style={{ gridTemplateColumns: "1fr 2fr" }}
+        >
           <div>
             <h3 className="bold tracking-widest md:text-2xl text-4xl md:ml-0 ml-10">
               INGREDIENTS
