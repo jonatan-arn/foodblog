@@ -39,7 +39,7 @@ export default function home() {
             alt="defaul recipe image"
           />
           <img
-            className="absolute top-[15vh] left-[90vw] hidden w-44 rotate-[350deg] xl:block"
+            className="absolute top-[15vh] left-[85vw] hidden w-44 rotate-[350deg] xl:block"
             src={s3}
             alt="defaul recipe image"
           />
