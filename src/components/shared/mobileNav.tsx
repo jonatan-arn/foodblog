@@ -7,11 +7,11 @@ interface mobilenavbarProps {
 
 export default function mobileNavbar({ open }: mobilenavbarProps) {
   let Links = [
-    { name: "home", link: "/foodblog" },
-    { name: "recipes", link: "/foodblog/recipes" },
-    { name: "about", link: "/foodblog" },
-    { name: "blog", link: "/foodblog" },
-    { name: "contact", link: "/foodblog" },
+    { name: "home", link: "/" },
+    { name: "recipes", link: "/recipes" },
+    { name: "about", link: "/" },
+    { name: "blog", link: "/" },
+    { name: "contact", link: "/" },
   ];
   const [t, i18n] = useTranslation("global");
   return (

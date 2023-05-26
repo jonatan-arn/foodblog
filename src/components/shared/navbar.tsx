@@ -7,11 +7,11 @@ interface navbarProps {
 }
 export default function navbar({ onOpenEvent, open }: navbarProps) {
   let Links = [
-    { name: "home", link: "/foodblog" },
-    { name: "recipes", link: "/foodblog/recipes" },
-    { name: "about", link: "/foodblog" },
-    { name: "blog", link: "/foodblog" },
-    { name: "contact", link: "/foodblog" },
+    { name: "home", link: "/" },
+    { name: "recipes", link: "/recipes" },
+    { name: "about", link: "/" },
+    { name: "blog", link: "/" },
+    { name: "contact", link: "/" },
   ];
   const [t, i18n] = useTranslation("global");
   return (
@@ -24,7 +24,7 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
           className="flex cursor-pointer items-center text-xl font-bold 
       tracking-wide text-white "
         >
-          <Link to={"/foodblog"}>
+          <Link to={"/"}>
             <span className="mr-1  pt-2 text-3xl text-white"></span>
             CUINA
           </Link>

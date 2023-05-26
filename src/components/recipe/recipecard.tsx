@@ -13,7 +13,7 @@ export default function recipescard({ recipe }: recipeProps) {
   return (
     <>
       <div className="items-left px- flex flex-col">
-        <Link to={`/foodblog/recipe/${recipe.id}`}>
+        <Link to={`/recipe/${recipe.id}`}>
           <img
             className="w-96 "
             src={img}

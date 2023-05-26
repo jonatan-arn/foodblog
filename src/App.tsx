@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "./components/shared/navbar";
 import MobileNavbar from "./components/shared/mobileNav";
@@ -13,19 +13,19 @@ function App() {
   };
   let [open, setOpen] = useState(false);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <MobileNavbar open={open} />
       <div className={` h-20 w-full  ${open ? "site-open" : "site-close"}`}>
         <Navbar open={open} onOpenEvent={onOpenEvent} />
       </div>
       <Routes>
-        <Route path="/foodblog" element={<Home />} />
-        <Route path="/foodblog/recipes" element={<Recipe />} />
-        <Route path="/foodblog/recipe/:id" element={<Recipe />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/recipes" element={<Recipe />} />
+        <Route path="/recipe/:id" element={<Recipe />} />
       </Routes>
       <Footer></Footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
