@@ -17,7 +17,7 @@ function App() {
       <ScrollToTop />
       <MobileNavbar open={open} />
       <div
-        className={` h-20 w-full fixed top-0 left-0  ${
+        className={` h-20 w-full fixed top-0 left-0 z-10  ${
           open ? "site-open" : "site-close"
         }`}
       >
