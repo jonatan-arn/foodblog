@@ -49,7 +49,12 @@
       "white_wine": "vino blanco",
       "balsamic_vinagre": "vinagre balsámico",
       "burrata": "burrata",
-      "wallnuts": "nueces"
+      "wallnuts": "nueces",
+      "green_pepper": "pimiento verde",
+      "eggplant": "berenjena",
+      "peanut_butter": "crema de cacahuete",
+      "honey": "miel",
+      "curry": "curry"
     }
   },
   "recipes": {
@@ -104,6 +109,30 @@
         "carababurrata_sweetpotatos": "Boniato asado",
         "carababurrata_grapes": "Uvas",
         "carababurrata_garnish": "Guarnación"
+      }
+    },
+    "currycacahuete": {
+      "name": "Curry de crema de cacahuete y miel",
+      "title": "Curry de crema de cacahuete y miel",
+      "summary": "Curry parecido a otros currys como el chana masala pero con un toque mas dulce gracias a la miel y la crema de cacahuete",
+      "cardtitle": "Curry de crema de cacahuete y miel",
+      "steps": {
+        "currycacahuete_curry_steap": {
+          "name": "El curry",
+          "currycacahuete_curry_steap_1": "Cortar y saltear los pimientos y la berenjena, una vez pochados poner aparte",
+          "currycacahuete_curry_steap_2": "Cortar la cebolla en julianas, picar el ajo y el jengibre",
+          "currycacahuete_curry_steap_3": "Pochar la cebolla en una sarten con aceite hasta que este un poco transparente",
+          "currycacahuete_curry_steap_4": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sarten durante 5min",
+          "currycacahuete_curry_steap_5": "Añadir el tomate concentrado y sofreir durante 3 minutos",
+          "currycacahuete_curry_steap_6": "Añade las verduras que estaban aparte y la leche de coco",
+          "currycacahuete_curry_steap_7": "Añadir la crema de cacahuete y la miel y mezclar",
+          "currycacahuete_curry_steap_8": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limon y cilantro",
+          "currycacahuete_curry_steap_9": "Acompañar con un poco de arroz basmati o pan naan"
+        }
+      },
+      "ingredients": {
+        "currycacahuete_spices": "Especias",
+        "currycacahuete_curry": "El curry"
       }
     }
   }

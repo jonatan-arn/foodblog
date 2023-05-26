@@ -192,13 +192,13 @@
       },
       {
         "id": "6",
-        "order": "1",
+        "order": "6",
         "name": "chanamasala_curry_steap_6",
         "group": "chanamasala_curry_steap"
       },
       {
         "id": "7",
-        "order": "2",
+        "order": "7",
         "name": "chanamasala_curry_steap_7",
         "group": "chanamasala_curry_steap"
       }
@@ -382,6 +382,224 @@
         "order": "1",
         "name": "carababurrata_garnish_steap_1",
         "group": "carababurrata_garnish_steap"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "currycacahuete",
+    "kcal": "",
+    "time": "15",
+    "categorie": "lunch",
+    "type": "curry",
+    "summary": "currycacahuetedesc",
+    "autho": "own",
+    "quantity": "4",
+    "restriccion": "vegan",
+    "img": "currycacahuete.png",
+    "cardtitle": "currycacahuete_title",
+    "carddate": "Mar 6, 2023",
+    "ingredients": [
+      {
+        "id": "1",
+        "recipeid": "1",
+        "name": "onion",
+        "quantity": "1",
+        "mesure": "none",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "2",
+        "recipeid": "1",
+        "name": "cloves_garlic",
+        "quantity": "2",
+        "mesure": "none",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "3",
+        "recipeid": "1",
+        "name": "ginger",
+        "quantity": "1",
+        "mesure": "thumbsize",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "curry",
+        "quantity": "1",
+        "mesure": "tsp",
+        "optional": "0",
+        "group": "currycacahuete_spices"
+      },
+
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "ground_coriander",
+        "quantity": "1",
+        "mesure": "tsp",
+        "optional": "0",
+        "group": "currycacahuete_spices"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "cumin",
+        "quantity": "1/2",
+        "mesure": "tsp",
+        "optional": "0",
+        "group": "currycacahuete_spices"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "butter",
+        "quantity": "1",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "tomato_paste",
+        "quantity": "1",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "green_pepper",
+        "quantity": "2",
+        "mesure": "none",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "eggplant",
+        "quantity": "1",
+        "mesure": "none",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "coconout_milk",
+        "quantity": "60",
+        "mesure": "ml",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "peanut_butter",
+        "quantity": "2",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "honey",
+        "quantity": "2",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "salt",
+        "quantity": "",
+        "mesure": "to_taste",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "cilantro",
+        "quantity": "",
+        "mesure": "to_taste",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      },
+      {
+        "id": "4",
+        "recipeid": "1",
+        "name": "lemon",
+        "quantity": "",
+        "mesure": "to_taste",
+        "optional": "0",
+        "group": "currycacahuete_curry"
+      }
+    ],
+    "steps": [
+      {
+        "id": "1",
+        "order": "1",
+        "name": "currycacahuete_curry_steap_1",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "2",
+        "order": "2",
+        "name": "currycacahuete_curry_steap_2",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "3",
+        "order": "3",
+        "name": "currycacahuete_curry_steap_3",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "4",
+        "order": "4",
+        "name": "currycacahuete_curry_steap_4",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "5",
+        "order": "5",
+        "name": "currycacahuete_curry_steap_5",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "6",
+        "order": "6",
+        "name": "currycacahuete_curry_steap_6",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "7",
+        "order": "7",
+        "name": "currycacahuete_curry_steap_7",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "8",
+        "order": "8",
+        "name": "currycacahuete_curry_steap_7",
+        "group": "currycacahuete_curry_steap"
+      },
+      {
+        "id": "9",
+        "order": "9",
+        "name": "currycacahuete_curry_steap_7",
+        "group": "currycacahuete_curry_steap"
       }
     ]
   }
