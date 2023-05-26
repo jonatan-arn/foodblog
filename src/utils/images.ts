@@ -1,5 +1,5 @@
-import chanamasala from "../../public/recipeimage/chanamasala.png";
-import carababurrata from "../../public/recipeimage/carababurrata.png";
+import chanamasala from "/recipeimage/chanamasala.png";
+import carababurrata from "/recipeimage/carababurrata.png";
 
 const images = new Map<string, string>();
 images.set("chanamasala.png", chanamasala);
