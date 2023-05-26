@@ -21,7 +21,7 @@ export default function mobileNavbar({ open }: mobilenavbarProps) {
       }`}
     >
       <ul
-        className={` opacity-1 fixed left-0 top-0 bottom-0 ml-[25%] w-3/4 ease-in 
+        className={` opacity-1 fixed left-0 top-0 bottom-0 ml-[25%] w-3/4 ease-in  h-full
         `}
         style={{ backgroundColor: "#1a1a1a" }}
       >
