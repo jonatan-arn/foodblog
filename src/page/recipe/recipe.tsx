@@ -8,6 +8,8 @@ import Ingredientlist from "./ingredientlist";
 import Stepstlist from "./stepstlist";
 import Steps from "../../interface/Isteps";
 import { useTranslation } from "react-i18next";
+import { getImage } from "../../utils/images.js";
+
 interface ingredientbyGroup {
   group: string;
   ingredientes: Ingredientes[];
@@ -41,16 +43,14 @@ function Recipe() {
     if (!stepsgroup.find((g) => g.group == group) && group != undefined)
       stepsgroup.push({ group, steps: samegroup });
   });
-  console.log(recipe);
+  const img = recipe.img != null ? getImage(recipe.img) : defaultrecipe;
 
   return (
     <>
       <div className=" relative  flex  flex-col items-center justify-center">
         <img
           className="a w-full object-cover h-[75vh]"
-          src={
-            recipe.img != null ? "/recipeimage/" + recipe.img : defaultrecipe
-          }
+          src={img}
           alt={recipe.img != null ? recipe.img : defaultrecipe}
         />
         <div
