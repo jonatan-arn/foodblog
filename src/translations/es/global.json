@@ -21,7 +21,9 @@
       "pinch": "Una pizca",
       "thumbsize": "Un pulgar",
       "g": "gramos",
-      "ml": "mililitros"
+      "ml": "mililitros",
+      "springs": "ramitas",
+      "glass": "vaso"
     },
     "ingredients": {
       "onion": "cebolla",
@@ -39,7 +41,15 @@
       "paprika": "pimenton dulce",
       "ground_coriander": "cilantro",
       "cumin": "comino",
-      "chili_powder": "pimenton picante"
+      "chili_powder": "pimenton picante",
+      "sweet_potatoes": "boniato",
+      "rosemary": "romero",
+      "salt_pepper": "sal y pimienta",
+      "grapes": "grapes",
+      "white_wine": "vino blanco",
+      "balsamic_vinagre": "vinagre balsámico",
+      "burrata": "burrata",
+      "wallnuts": "nueces"
     }
   },
   "recipes": {
@@ -63,6 +73,37 @@
       "ingredients": {
         "chanamasala_spices": "Especias",
         "chanamasala_curry": "El curry"
+      }
+    },
+    "carababurrata": {
+      "name": "Boniato con Uvas Asadas, Romero, Nueces y Burrata",
+      "title": "Boniato con Uvas Asadas, Romero, Nueces y Burrata",
+      "summary": "Boniato acompañado de unas uvas con un glaseado de vino blanco y vinagre balsámico, burrata y nueces ",
+      "cardtitle": "Boniato con Uvas Asadas, Romero, Nueces y Burrata",
+      "steps": {
+        "carababurrata_sweetpotatos_steap": {
+          "name": "Boniato asado",
+          "carababurrata_sweetpotatos_steap_1": "Poner a precalentar el horno a 180º",
+          "carababurrata_sweetpotatos_steap_2": "Lavar, cortar por la mitad y marcar los boniatos",
+          "carababurrata_sweetpotatos_steap_3": "En una paella caliente añadir 1 cucharada de la mantequilla y cocinar boca abajo hasta dorar el boniato",
+          "carababurrata_sweetpotatos_steap_4": "Añadir el romero, ajo y sal i pimienta al gusto",
+          "carababurrata_sweetpotatos_steap_5": "Añadir el resto de la mantequilla y ponerlo en el horno durante 20min hasta que esten tiernas"
+        },
+        "carababurrata_grapes_steap": {
+          "name": "Uvas",
+          "carababurrata_grapes_steap_1": "Añade 1 cucharada de mantequilla a una sarten muy caliente",
+          "carababurrata_grapes_steap_2": "Cuando la mantequilla este marron, añadir las uvas lavadas y asar hasta que esten ligeramente quemada la piel",
+          "carababurrata_grapes_steap_3": "Añade el romero el vino y el vinagre y el resto de la mantequilla hasta que se forme un glaseado"
+        },
+        "carababurrata_garnish_steap": {
+          "name": "Guarnación",
+          "carababurrata_garnish_steap_1": "Añadir en un plato las patatas, acompañar por encima con las uvas y el glaseado y finalmente añadir las nuces y la burrata"
+        }
+      },
+      "ingredients": {
+        "carababurrata_sweetpotatos": "Boniato asado",
+        "carababurrata_grapes": "Uvas",
+        "carababurrata_garnish": "Guarnación"
       }
     }
   }

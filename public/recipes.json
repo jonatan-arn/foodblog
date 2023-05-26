@@ -203,5 +203,186 @@
         "group": "chanamasala_curry_steap"
       }
     ]
+  },
+  {
+    "id": "2",
+    "name": "carababurrata",
+    "kcal": "",
+    "time": "15",
+    "categorie": "lunch",
+    "type": "curry",
+    "summary": "carababurratadesc",
+    "autho": "Gabe Kennedy (tiktok)",
+    "quantity": "4",
+    "restriccion": "vegetarian",
+    "img": "carababurrata.png",
+    "cardtitle": "carababurrata_title",
+    "carddate": "Ene 2, 2023",
+    "ingredients": [
+      {
+        "id": "1",
+        "recipeid": "1",
+        "name": "cloves_garlic",
+        "quantity": "2",
+        "mesure": "none",
+        "optional": "0",
+        "group": "carababurrata_sweetpotatos"
+      },
+      {
+        "id": "2",
+        "recipeid": "2",
+        "name": "sweet_potatoes",
+        "quantity": "3",
+        "mesure": "none",
+        "optional": "0",
+        "group": "carababurrata_sweetpotatos"
+      },
+      {
+        "id": "3",
+        "recipeid": "2",
+        "name": "butter",
+        "quantity": "3",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "carababurrata_sweetpotatos"
+      },
+      {
+        "id": "4",
+        "recipeid": "2",
+        "name": "rosemary",
+        "quantity": "2",
+        "mesure": "springs",
+        "optional": "0",
+        "group": "carababurrata_sweetpotatos"
+      },
+      {
+        "id": "4",
+        "recipeid": "2",
+        "name": "salt_pepper",
+        "quantity": "2",
+        "mesure": "to_taste",
+        "optional": "0",
+        "group": "carababurrata_sweetpotatos"
+      },
+      {
+        "id": "5",
+        "recipeid": "2",
+        "name": "grapes",
+        "quantity": "300",
+        "mesure": "g",
+        "optional": "0",
+        "group": "carababurrata_grapes"
+      },
+      {
+        "id": "6",
+        "recipeid": "2",
+        "name": "butter",
+        "quantity": "2",
+        "mesure": "tbsp",
+        "optional": "0",
+        "group": "carababurrata_grapes"
+      },
+      {
+        "id": "7",
+        "recipeid": "2",
+        "name": "rosemary",
+        "quantity": "2",
+        "mesure": "springs",
+        "optional": "0",
+        "group": "carababurrata_grapes"
+      },
+      {
+        "id": "8",
+        "recipeid": "2",
+        "name": "white_wine",
+        "quantity": "1/2",
+        "mesure": "glass",
+        "optional": "0",
+        "group": "carababurrata_grapes"
+      },
+      {
+        "id": "9",
+        "recipeid": "2",
+        "name": "balsamic_vinagre",
+        "quantity": "1/2",
+        "mesure": "glass",
+        "optional": "0",
+        "group": "carababurrata_grapes"
+      },
+      {
+        "id": "10",
+        "recipeid": "2",
+        "name": "burrata",
+        "quantity": "1",
+        "mesure": "none",
+        "optional": "0",
+        "group": "carababurrata_garnish"
+      },
+      {
+        "id": "9",
+        "recipeid": "2",
+        "name": "wallnuts",
+        "quantity": "",
+        "mesure": "to_taste",
+        "optional": "0",
+        "group": "carababurrata_garnish"
+      }
+    ],
+    "steps": [
+      {
+        "id": "1",
+        "order": "1",
+        "name": "carababurrata_sweetpotatos_steap_1",
+        "group": "carababurrata_sweetpotatos_steap"
+      },
+      {
+        "id": "2",
+        "order": "2",
+        "name": "carababurrata_sweetpotatos_steap_2",
+        "group": "carababurrata_sweetpotatos_steap"
+      },
+      {
+        "id": "3",
+        "order": "3",
+        "name": "carababurrata_sweetpotatos_steap_3",
+        "group": "carababurrata_sweetpotatos_steap"
+      },
+      {
+        "id": "4",
+        "order": "4",
+        "name": "carababurrata_sweetpotatos_steap_4",
+        "group": "carababurrata_sweetpotatos_steap"
+      },
+      {
+        "id": "5",
+        "order": "5",
+        "name": "carababurrata_sweetpotatos_steap_5",
+        "group": "carababurrata_sweetpotatos_steap"
+      },
+      {
+        "id": "6",
+        "order": "1",
+        "name": "carababurrata_grapes_steap_1",
+        "group": "carababurrata_grapes_steap"
+      },
+      {
+        "id": "7",
+        "order": "2",
+        "name": "carababurrata_grapes_steap_2",
+        "group": "carababurrata_grapes_steap"
+      },
+      {
+        "id": "8",
+        "order": "3",
+        "name": "carababurrata_grapes_steap_3",
+        "group": "carababurrata_grapes_steap"
+      },
+      {
+        "id": "9",
+        "order": "1",
+        "name": "carababurrata_garnish_steap_1",
+        "group": "carababurrata_garnish_steap"
+      }
+    ]
   }
 ]
