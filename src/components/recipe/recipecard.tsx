@@ -3,23 +3,20 @@ import { Link } from "react-router-dom";
 import defaultrecipe from "../../../public/defaulrecipe.png";
 import IRecipe from "../../interface/Irecipe";
 import { useTranslation } from "react-i18next";
-
+import { getImage } from "../../utils/images.js";
 interface recipeProps {
   recipe: IRecipe;
 }
 export default function recipescard({ recipe }: recipeProps) {
   const [t, i18n] = useTranslation("global");
-  console.log(recipe);
-
+  const img = recipe.img != null ? getImage(recipe.img) : defaultrecipe;
   return (
     <>
       <div className="items-left px- flex flex-col">
         <Link to={`/foodblog/recipe/${recipe.id}`}>
           <img
             className="w-96 "
-            src={
-              recipe.img != null ? "/recipeimage/" + recipe.img : defaultrecipe
-            }
+            src={img}
             alt={recipe.img != null ? recipe.img : defaultrecipe}
           />
           <h2 className="pt-4 text-xl font-bold leading-6 tracking-wide">
