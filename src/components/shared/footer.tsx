@@ -13,7 +13,7 @@ export default function footer() {
         </div>
         <div className="p-1 border-2 text-4xl rounded-md border-white border-solid hover:bg-white hover:text-black">
           <a
-            href="https://www.linkedin.com/in/jonatan-arnandis-alfonso-5767401b2/"
+            href="https://www.linkedin.com/in/jonatan-arnandis"
             target="_blank"
           >
             <FaLinkedinIn />
