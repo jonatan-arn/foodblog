@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { AiOutlineSearch } from "react-icons/ai";
+
 interface searchbarProps {
   allList: { id: string; strs: string[] }[];
   onChange: (c: string[]) => void;
@@ -7,14 +9,14 @@ interface searchbarProps {
 export default function searchbar({ allList, onChange }: searchbarProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [t, i18n] = useTranslation("global");
-
+  const placeholdertext = t("recipes.placeholdertext");
   useEffect(() => {
     let filterlist: string[] = [];
-
-    if (searchTerm.length > 0) {
+    let search = searchTerm.trim().toLowerCase();
+    if (search.length > 0) {
       allList.map((a) => {
         a.strs.map((s) => {
-          if (contieneLetras(s, searchTerm.toLowerCase())) {
+          if (contieneLetras(s, search)) {
             filterlist.push(a.id);
           }
         });
@@ -27,13 +29,14 @@ export default function searchbar({ allList, onChange }: searchbarProps) {
   }, [searchTerm]);
   return (
     <>
-      <div className=" border-2 border-gray-700">
+      <div className="w-full flex justify-center">
         <input
-          className="w-full"
+          className=" border-2 border-gray-500 md:w-full h-12 bg-[url('/search.png')] bg-no-repeat pl-10 bg-center w-9/12  "
+          style={{ backgroundPositionX: "calc(1%)" }}
           type="text"
           name="text"
           id="text"
-          placeholder="Search Here"
+          placeholder={placeholdertext}
           onChange={(event) => {
             setSearchTerm(event.target.value);
           }}
