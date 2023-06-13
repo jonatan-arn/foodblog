@@ -47,17 +47,18 @@ export default function recipes() {
             alt="defaul recipe image"
           />
           <div className=" text-center text-7xl font-bold">
-            {t("recipes.title")}
+            {t("recipes_page.title")}
           </div>
         </div>
         <div className="mx-auto max-w-4xl  pt-10 lg:pt-28">
           <h1 className="line-h pb-10  text-center text-2xl font-light leading-10">
-            {t("recipes.recipes_desc")}
+            {t("recipes_page.desc")}
           </h1>
 
           <Searchbar
             onChange={(c: string[]) => setCurrentList(c)}
             allList={allList}
+            placeholder={t("recipes_page.placeholdertext")}
           ></Searchbar>
           <Recipeslist list={r}></Recipeslist>
         </div>

@@ -5,11 +5,16 @@ import { AiOutlineSearch } from "react-icons/ai";
 interface searchbarProps {
   allList: { id: string; strs: string[] }[];
   onChange: (c: string[]) => void;
+  placeholder: string;
 }
-export default function searchbar({ allList, onChange }: searchbarProps) {
+export default function searchbar({
+  allList,
+  onChange,
+  placeholder,
+}: searchbarProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [t, i18n] = useTranslation("global");
-  const placeholdertext = t("recipes.placeholdertext");
+  const placeholdertext = placeholder;
   useEffect(() => {
     let filterlist: string[] = [];
     let search = searchTerm.trim().toLowerCase();

@@ -10,6 +10,11 @@
     "home_desc": "Pequeño proyecto para compartir mis receptas",
     "allrecipes": "Ver todas las receptas"
   },
+  "recipes_page": {
+    "title": "Recetas",
+    "desc": "Aqui podras encontrar todas la receptas",
+    "placeholdertext": "Puedas buscar por nombre de recepta o ingrediente"
+  },
   "recipe_page": {
     "in": "INGREDIENTES",
     "st": "PASOS",

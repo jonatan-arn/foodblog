@@ -9,5 +9,10 @@
   "home": {
     "home-desc": "Small proyect to share my recipes",
     "allrecipes": "View all recipes"
+  },
+  "recipes_page": {
+    "title": "Recipes",
+    "desc": "Here you can find all my recipes",
+    "placeholdertext": "You can search by recipe name or ingredient"
   }
 }
