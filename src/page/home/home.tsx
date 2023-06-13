@@ -9,6 +9,7 @@ import s2 from "/Stickers/Lemon.png";
 import s3 from "/Stickers/Red Diamond.png";
 import s4 from "/Stickers/Tasty Tomato.png";
 import s5 from "/Stickers/Purple Grape.png";
+import { Link } from "react-router-dom";
 
 export default function home() {
   const r = recipes.slice(0, 9) as unknown as Recipe[];
@@ -53,11 +54,20 @@ export default function home() {
             alt="defaul recipe image"
           />
         </div>
-        <div className="mx-auto max-w-4xl  pt-10 lg:pt-28">
+        <div className="mx-auto max-w-4xl  pt-10 lg:pt-28 flex flex-col items-center">
           <h1 className="line-h pb-10  text-center text-2xl font-light leading-10">
             {t("home.home_desc")}
           </h1>
           <Recipeslist list={r}></Recipeslist>
+          <div className=" border-2 border-black hover:bg-black hover:text-white transition w-60 rounded-3xl py-5 my-4">
+            <Link
+              to={"/recipes"}
+              className="flex justify-center uppercase   leading-4 tracking-wide"
+            >
+              <span className="mr-1  pt-2 text-3xl text-black"></span>
+              {t("home.allrecipes")}
+            </Link>
+          </div>
         </div>
       </div>
     </>

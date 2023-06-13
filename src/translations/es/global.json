@@ -7,7 +7,8 @@
     "contact": "contacto"
   },
   "home": {
-    "home_desc": "Pequeño proyecto para compartir mis receptas"
+    "home_desc": "Pequeño proyecto para compartir mis receptas",
+    "allrecipes": "Ver todas las receptas"
   },
   "recipe_page": {
     "in": "INGREDIENTES",

@@ -12,10 +12,10 @@ export default function recipescard({ recipe }: recipeProps) {
   const img = recipe.img != null ? getImage(recipe.img) : defaultrecipe;
   return (
     <>
-      <div className="items-left px- flex flex-col">
-        <Link to={`/recipe/${recipe.id}`}>
+      <div className="items-left px- flex flex-col  ">
+        <Link to={`/recipe/${recipe.id}`} className="flex flex-col ">
           <img
-            className="w-96 "
+            className="md:w-96 "
             src={img}
             alt={recipe.img != null ? recipe.img : defaultrecipe}
           />
