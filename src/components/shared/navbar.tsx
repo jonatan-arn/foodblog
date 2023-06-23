@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AiOutlineMenu } from "react-icons/ai";
+import ToggleLanguage from "./toggleLanguage";
 interface navbarProps {
   onOpenEvent: () => void;
   open: boolean;
@@ -17,7 +18,7 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
   return (
     <div className={` fixed top-0 left-0 z-10 w-full`}>
       <div
-        className=" h-20 items-center justify-between py-6  px-12 md:flex md:px-20"
+        className=" h-20 items-center justify-between py-6  px-12 flex md:px-20"
         style={{ backgroundColor: "#1a1a1a" }}
       >
         <div
@@ -28,13 +29,6 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
             <span className="mr-1  pt-2 text-3xl text-white"></span>
             CUINA
           </Link>
-        </div>
-
-        <div
-          onClick={onOpenEvent}
-          className="absolute right-8  top-6 cursor-pointer text-3xl text-white md:hidden"
-        >
-          <AiOutlineMenu />
         </div>
 
         <ul
@@ -57,6 +51,13 @@ export default function navbar({ onOpenEvent, open }: navbarProps) {
             </li>
           ))}
         </ul>
+        <ToggleLanguage />
+        <div
+          onClick={onOpenEvent}
+          className="absolute right-8  top-6 cursor-pointer text-3xl text-white md:hidden"
+        >
+          <AiOutlineMenu />
+        </div>
       </div>
     </div>
   );

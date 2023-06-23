@@ -43,3 +43,10 @@
   opacity: 0;
   z-index: -1;
 }
+input:checked {
+  background-color: rgb(107 114 128); /* bg-green-500 */
+}
+
+input:checked ~ span:last-child {
+  --tw-translate-x: 1.75rem; /* translate-x-7 */
+}
