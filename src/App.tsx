@@ -6,6 +6,7 @@ import Home from "./page/home/home";
 import Recipe from "./page/recipe/recipe";
 import Recipes from "./page/recipes/recipes";
 
+import About from "./page/about/about";
 import ScrollToTop from "./components/shared/ScrollToTop";
 import Footer from "./components/shared/footer";
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/" element={<Home />} />
         <Route path="/recipe/:id" element={<Recipe />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer></Footer>
     </HashRouter>

@@ -9,9 +9,9 @@ export default function mobileNavbar({ open }: mobilenavbarProps) {
   let Links = [
     { name: "home", link: "/" },
     { name: "recipes", link: "/recipes" },
-    { name: "about", link: "/" },
-    { name: "blog", link: "/" },
-    { name: "contact", link: "/" },
+    { name: "about", link: "/about" },
+    // { name: "blog", link: "/" },
+    // { name: "contact", link: "/" },
   ];
   const [t, i18n] = useTranslation("global");
   return (

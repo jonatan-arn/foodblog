@@ -10,6 +10,10 @@
     "home_desc": "Small proyect to share my recipes",
     "allrecipes": "View all recipes"
   },
+  "about": {
+    "p1": "Hi, I'm Jonatan and this is my little recipe page project.",
+    "p2": "Small project to learn and practice react and tailwind, the web design is based on the web bingingwithbabish.com"
+  },
   "recipes_page": {
     "title": "Recipes",
     "desc": "Here you can find all my recipes",

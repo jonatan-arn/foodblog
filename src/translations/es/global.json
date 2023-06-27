@@ -7,8 +7,12 @@
     "contact": "contacto"
   },
   "home": {
-    "home_desc": "Pequeño proyecto para compartir mis receptas",
-    "allrecipes": "Ver todas las receptas"
+    "home_desc": "Pequeño proyecto para compartir mis recetas",
+    "allrecipes": "Ver todas las recetas"
+  },
+  "about": {
+    "p1": "Buenas soy Jonatan y este es mi pequeño proyecto de recetario.",
+    "p2": "Pequeño proyecto para aprender y practicar react y tailwind, el diseño de la web esta basado en la web bingingwithbabish.com"
   },
   "recipes_page": {
     "title": "Recetas",
@@ -38,16 +42,16 @@
       "butter": "mantequilla",
       "tomato_paste": "tomate concentrado",
       "coocked_chickpeas": "garbanzos cocidos",
-      "coocked_black_beans": "judias moradas cocidas",
+      "coocked_black_beans": "judías moradas cocidas",
       "coconout_milk": "leche de coco",
       "cilantro": "cilantro",
-      "lemon": "limon",
+      "lemon": "limón",
       "salt": "sal",
       "garam_masala": "garam masala",
-      "paprika": "pimenton dulce",
+      "paprika": "pimentón dulce",
       "ground_coriander": "cilantro",
       "cumin": "comino",
-      "chili_powder": "pimenton picante",
+      "chili_powder": "pimentón picante",
       "sweet_potatoes": "boniato",
       "rosemary": "romero",
       "salt_pepper": "sal y pimienta",
@@ -67,17 +71,17 @@
     "chanamasala": {
       "name": "Chana masala",
       "title": "Chana masala",
-      "summary": "Chana masala, no muy tradicional pero rapido y sencillo, a mi me gusta tambien acompañarlo de alubias moradas ",
-      "cardtitle": "Chana masala, rapido pero poco tradicional",
+      "summary": "Chana masala, no muy tradicional pero rápido y sencillo, a mi me gusta tambien acompañarlo de alubias moradas ",
+      "cardtitle": "Chana masala, rápido pero poco tradicional",
       "steps": {
         "chanamasala_curry_steap": {
           "name": "El curry",
           "chanamasala_curry_steap_1": "Cortar la cebolla en julianas, picar el ajo y el jengibre",
-          "chanamasala_curry_steap_2": "Pochar la cebolla en una sarten con aceite hasta que este un poco transparente",
-          "chanamasala_curry_steap_3": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sarten durante 5min",
-          "chanamasala_curry_steap_4": "Añadir el tomate concentrado y sofreir durante 3 minutos",
-          "chanamasala_curry_steap_5": "Añade los garbanzos y judias de bote con su liquido incluido y la leche de coco",
-          "chanamasala_curry_steap_6": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limon y cilantro",
+          "chanamasala_curry_steap_2": "Pochar la cebolla en una sartén con aceite hasta que esté un poco transparente",
+          "chanamasala_curry_steap_3": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sartén durante 5min",
+          "chanamasala_curry_steap_4": "Añadir el tomate concentrado y sofreír durante 3 minutos",
+          "chanamasala_curry_steap_5": "Añade los garbanzos y judías de bote con su liquido incluido y la leche de coco",
+          "chanamasala_curry_steap_6": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limón y cilantro",
           "chanamasala_curry_steap_7": "Acompañar con un poco de arroz basmati o pan"
         }
       },
@@ -97,18 +101,18 @@
           "carababurrata_sweetpotatos_steap_1": "Poner a precalentar el horno a 180º",
           "carababurrata_sweetpotatos_steap_2": "Lavar, cortar por la mitad y marcar los boniatos",
           "carababurrata_sweetpotatos_steap_3": "En una paella caliente añadir 1 cucharada de la mantequilla y cocinar boca abajo hasta dorar el boniato",
-          "carababurrata_sweetpotatos_steap_4": "Añadir el romero, ajo y sal i pimienta al gusto",
-          "carababurrata_sweetpotatos_steap_5": "Añadir el resto de la mantequilla y ponerlo en el horno durante 20min hasta que esten tiernas"
+          "carababurrata_sweetpotatos_steap_4": "Añadir el romero, ajo y sal y pimienta al gusto",
+          "carababurrata_sweetpotatos_steap_5": "Añadir el resto de la mantequilla y ponerlo en el horno durante 20min hasta que estén tiernas"
         },
         "carababurrata_grapes_steap": {
           "name": "Uvas",
-          "carababurrata_grapes_steap_1": "Añade 1 cucharada de mantequilla a una sarten muy caliente",
-          "carababurrata_grapes_steap_2": "Cuando la mantequilla este marron, añadir las uvas lavadas y asar hasta que esten ligeramente quemada la piel",
+          "carababurrata_grapes_steap_1": "Añade 1 cucharada de mantequilla a una sartén marrón caliente",
+          "carababurrata_grapes_steap_2": "Cuando la mantequilla este marrón, añadir las uvas lavadas y asar hasta que estén ligeramente quemada la piel",
           "carababurrata_grapes_steap_3": "Añade el romero el vino y el vinagre y el resto de la mantequilla hasta que se forme un glaseado"
         },
         "carababurrata_garnish_steap": {
           "name": "Guarnación",
-          "carababurrata_garnish_steap_1": "Añadir en un plato las patatas, acompañar por encima con las uvas y el glaseado y finalmente añadir las nuces y la burrata"
+          "carababurrata_garnish_steap_1": "Añadir en un plato las patatas, acompañar por encima con las uvas y el glaseado y finalmente añadir las nueces y la burrata"
         }
       },
       "ingredients": {
@@ -120,19 +124,19 @@
     "currycacahuete": {
       "name": "Curry de crema de cacahuete y miel",
       "title": "Curry de crema de cacahuete y miel",
-      "summary": "Curry parecido a otros currys como el chana masala pero con un toque mas dulce gracias a la miel y la crema de cacahuete",
+      "summary": "Curry parecido a otros currys como el chana masala pero con un toque más dulce gracias a la miel y la crema de cacahuete",
       "cardtitle": "Curry de crema de cacahuete y miel",
       "steps": {
         "currycacahuete_curry_steap": {
           "name": "El curry",
           "currycacahuete_curry_steap_1": "Cortar y saltear los pimientos y la berenjena, una vez pochados poner aparte",
           "currycacahuete_curry_steap_2": "Cortar la cebolla en julianas, picar el ajo y el jengibre",
-          "currycacahuete_curry_steap_3": "Pochar la cebolla en una sarten con aceite hasta que este un poco transparente",
-          "currycacahuete_curry_steap_4": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sarten durante 5min",
-          "currycacahuete_curry_steap_5": "Añadir el tomate concentrado y sofreir durante 3 minutos",
+          "currycacahuete_curry_steap_3": "Pochar la cebolla en una sartén con aceite hasta que este un poco transparente",
+          "currycacahuete_curry_steap_4": "Añadir el ajo, el jengibre, las especias y la mantequilla a la sartén durante 5min",
+          "currycacahuete_curry_steap_5": "Añadir el tomate concentrado y sofreír durante 3 minutos",
           "currycacahuete_curry_steap_6": "Añade las verduras que estaban aparte y la leche de coco",
           "currycacahuete_curry_steap_7": "Añadir la crema de cacahuete y la miel y mezclar",
-          "currycacahuete_curry_steap_8": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limon y cilantro",
+          "currycacahuete_curry_steap_8": "Dejarlo a fuego lento durante unos 10min y al acabar probar de sal y añadir limón y cilantro",
           "currycacahuete_curry_steap_9": "Acompañar con un poco de arroz basmati o pan naan"
         }
       },
