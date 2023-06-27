@@ -7,12 +7,139 @@
     "contact": "contact"
   },
   "home": {
-    "home-desc": "Small proyect to share my recipes",
+    "home_desc": "Small proyect to share my recipes",
     "allrecipes": "View all recipes"
   },
   "recipes_page": {
     "title": "Recipes",
     "desc": "Here you can find all my recipes",
     "placeholdertext": "You can search by recipe name or ingredient"
+  },
+  "recipe_page": {
+    "in": "INGREDIENTS",
+    "st": "STEPS",
+    "mesure": {
+      "none": " ",
+      "tbsp": "Tbsp",
+      "tsp": "Tsp",
+      "to_taste": "To taste",
+      "handfull": "Handfull",
+      "pinch": "Pinch",
+      "thumbsize": "Thumbsize",
+      "g": "Grams",
+      "ml": "Milliliters",
+      "springs": "Springs",
+      "glass": "Glass"
+    },
+    "ingredients": {
+      "onion": "onion",
+      "cloves_garlic": "cloves garlic",
+      "ginger": "ginger",
+      "butter": "butter",
+      "tomato_paste": "tomato paste",
+      "coocked_chickpeas": "coocked chickpeas",
+      "coocked_black_beans": "coocked black beanss",
+      "coconout_milk": "coconout milk",
+      "cilantro": "cilantro",
+      "lemon": "lemon",
+      "salt": "salt",
+      "garam_masala": "garam masala",
+      "paprika": "paprika",
+      "ground_coriander": "ground coriander",
+      "cumin": "cumin",
+      "chili_powder": "chili powder",
+      "sweet_potatoes": "sweet potatoes",
+      "rosemary": "rosemary",
+      "salt_pepper": "salt and pepper",
+      "grapes": "grapes",
+      "white_wine": "white wine",
+      "balsamic_vinagre": "balsamic vinagre",
+      "burrata": "burrata",
+      "wallnuts": "wallnuts",
+      "green_pepper": "green pepper",
+      "eggplant": "eggplant",
+      "peanut_butter": "peanut butter",
+      "honey": "honey",
+      "curry": "curry"
+    }
+  },
+  "recipes": {
+    "chanamasala": {
+      "name": "Chana masala",
+      "title": "Chana masala",
+      "summary": "Chana masala, not very traditional but quick and easy, I also like to accompany it with black beans",
+      "cardtitle": "Chana masala, not very traditional but quick",
+      "steps": {
+        "chanamasala_curry_steap": {
+          "name": "The curry",
+          "chanamasala_curry_steap_1": "Cut the onion into julianas, chop the garlic and ginger",
+          "chanamasala_curry_steap_2": "Sauté the onion in a pan with oil until it is slightly transparent",
+          "chanamasala_curry_steap_3": "Add the garlic, ginger, spices and butter to the pan and cook for 5min",
+          "chanamasala_curry_steap_4": "Add the concentrated tomato and fry for 3 minutes",
+          "chanamasala_curry_steap_5": "Add the chickpeas and  beans with their included liquid and the coconut milk",
+          "chanamasala_curry_steap_6": "Leave it to simmer for about 10 minutes and when finished try salt and add lemon and cilantro",
+          "chanamasala_curry_steap_7": "Serve with some basmati rice or bread"
+        }
+      },
+      "ingredients": {
+        "chanamasala_spices": "Spices",
+        "chanamasala_curry": "The curry"
+      }
+    },
+    "carababurrata": {
+      "name": "Sweet Potato with Roasted Grapes, Rosemary, Walnuts and Burrata",
+      "title": "Sweet Potato with Roasted Grapes, Rosemary, Walnuts and Burrata",
+      "summary": "Sweet potato accompanied by some grapes with a glaze of white wine and balsamic vinegar, burrata and walnuts",
+      "cardtitle": "Sweet Potato with Roasted Grapes, Rosemary, Walnuts and Burrata",
+      "steps": {
+        "carababurrata_sweetpotatos_steap": {
+          "name": "Roasted sweet potato",
+          "carababurrata_sweetpotatos_steap_1": "Preheat the oven to 180º",
+          "carababurrata_sweetpotatos_steap_2": "Wash, cut in half and mark the sweet potatoes",
+          "carababurrata_sweetpotatos_steap_3": "In a hot pan add 1 tablespoon of butter and cook upside down until the sweet potato is browned.",
+          "carababurrata_sweetpotatos_steap_4": "Add rosemary, garlic and salt and pepper to taste",
+          "carababurrata_sweetpotatos_steap_5": "Add the rest of the butter and put it in the oven for 20 minutes until tender."
+        },
+        "carababurrata_grapes_steap": {
+          "name": "Grapes",
+          "carababurrata_grapes_steap_1": "Add 1 tablespoon of butter to a very hot skillet.",
+          "carababurrata_grapes_steap_2": "When the butter is brown, add the washed grapes and roast until the skin is slightly charred.",
+          "carababurrata_grapes_steap_3": "Add the rosemary wine and vinegar and the rest of the butter until a glaze forms."
+        },
+        "carababurrata_garnish_steap": {
+          "name": "Garnish",
+          "carababurrata_garnish_steap_1": "Add the potatoes to a plate, accompany the top with the grapes and the glaze and finally add the walnuts and the burrata"
+        }
+      },
+      "ingredients": {
+        "carababurrata_sweetpotatos": "Sweet potato",
+        "carababurrata_grapes": "Grapes",
+        "carababurrata_garnish": "Garnish"
+      }
+    },
+    "currycacahuete": {
+      "name": "Peanut butter and honey curry",
+      "title": "Peanut butter and honey curry",
+      "summary": "Curry similar to other curries such as chana masala but with a sweeter touch thanks to honey and peanut butter",
+      "cardtitle": "Peanut butter and honey curry",
+      "steps": {
+        "currycacahuete_curry_steap": {
+          "name": "The curry",
+          "currycacahuete_curry_steap_1": "Cut and sauté the peppers and the aubergine, once poached put aside",
+          "currycacahuete_curry_steap_2": "Cut the onion into julienne strips, chop the garlic and ginger",
+          "currycacahuete_curry_steap_3": "Sauté the onion in a pan with oil until it is slightly transparent",
+          "currycacahuete_curry_steap_4": "Add the garlic, ginger, spices and butter to the pan for 5min.",
+          "currycacahuete_curry_steap_5": "Add the concentrated tomato and fry for 3 minutes",
+          "currycacahuete_curry_steap_6": "Add the vegetables that were set aside and the coconut milk.",
+          "currycacahuete_curry_steap_7": "Add the peanut butter and honey and mix",
+          "currycacahuete_curry_steap_8": "Leave it to simmer for about 10 minutes and when finished try salt and add lemon and cilantro",
+          "currycacahuete_curry_steap_9": "Serve with some basmati rice or naan bread"
+        }
+      },
+      "ingredients": {
+        "currycacahuete_spices": "Spices",
+        "currycacahuete_curry": "The curry"
+      }
+    }
   }
 }
