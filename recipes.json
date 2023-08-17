@@ -438,7 +438,7 @@
       },
 
       {
-        "id": "4",
+        "id": "5",
         "recipeid": "1",
         "name": "ground_coriander",
         "quantity": "1",
@@ -447,7 +447,7 @@
         "group": "currycacahuete_spices"
       },
       {
-        "id": "4",
+        "id": "6",
         "recipeid": "1",
         "name": "cumin",
         "quantity": "1/2",
@@ -456,7 +456,7 @@
         "group": "currycacahuete_spices"
       },
       {
-        "id": "4",
+        "id": "7",
         "recipeid": "1",
         "name": "butter",
         "quantity": "1",
@@ -465,7 +465,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "8",
         "recipeid": "1",
         "name": "tomato_paste",
         "quantity": "1",
@@ -474,7 +474,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "9",
         "recipeid": "1",
         "name": "green_pepper",
         "quantity": "2",
@@ -483,7 +483,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "10",
         "recipeid": "1",
         "name": "eggplant",
         "quantity": "1",
@@ -492,7 +492,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "11",
         "recipeid": "1",
         "name": "coconout_milk",
         "quantity": "60",
@@ -501,7 +501,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "12",
         "recipeid": "1",
         "name": "peanut_butter",
         "quantity": "2",
@@ -510,7 +510,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "13",
         "recipeid": "1",
         "name": "honey",
         "quantity": "2",
@@ -519,7 +519,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "14",
         "recipeid": "1",
         "name": "salt",
         "quantity": "",
@@ -528,7 +528,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "15",
         "recipeid": "1",
         "name": "cilantro",
         "quantity": "",
@@ -537,7 +537,7 @@
         "group": "currycacahuete_curry"
       },
       {
-        "id": "4",
+        "id": "16",
         "recipeid": "1",
         "name": "lemon",
         "quantity": "",
@@ -586,18 +586,6 @@
       {
         "id": "7",
         "order": "7",
-        "name": "currycacahuete_curry_steap_7",
-        "group": "currycacahuete_curry_steap"
-      },
-      {
-        "id": "8",
-        "order": "8",
-        "name": "currycacahuete_curry_steap_7",
-        "group": "currycacahuete_curry_steap"
-      },
-      {
-        "id": "9",
-        "order": "9",
         "name": "currycacahuete_curry_steap_7",
         "group": "currycacahuete_curry_steap"
       }
